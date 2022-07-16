@@ -475,16 +475,16 @@ cursor: pointer;
 
 
 /* Приемущества сайта */
-.main-sextion {
+.main-section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.main-list .item:not(:last-child) {
+.main-list .benefits__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.main-list>.item {
+.main-list>.benefits__item {
   flex-basis: calc(100% / 3 - 30px);
 }
 
@@ -493,7 +493,7 @@ cursor: pointer;
   display: flex;
 }
 
-.benefits {
+.benefits__thumb{
   background-color: #f5f4fa;
   margin-bottom: 30px;
   align-items: center;
@@ -503,7 +503,7 @@ cursor: pointer;
   border-radius: 4px;
 }
 
-.main-title {
+.benefits__title {
   margin-bottom: 10px;
   color: var(--primary-text-color);
   font-size: 14px;
@@ -511,7 +511,7 @@ cursor: pointer;
   text-transform: uppercase;
 }
 
-.main-text {
+.benefits__text {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
