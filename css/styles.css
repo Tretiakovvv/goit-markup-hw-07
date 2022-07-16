@@ -518,11 +518,11 @@ cursor: pointer;
 }
 
 /* чем занимается фирма */
-.work-section {
+.work {
   padding-bottom: 94px;
 }
 
-.work-title {
+.work__title {
   margin-bottom: 50px;
   color: var(--primary-text-color);
   font-size: 36px;
@@ -531,21 +531,21 @@ cursor: pointer;
   letter-spacing: 0.03em;
 }
 
-.work-list {
+.work__list {
   list-style: none;
   display: flex;
 }
 
-.work-list .item:not(:last-child) {
+.work__list .work__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.work-list>.item {
+.work__list>.work__item {
   flex-basis: calc(100% / 2 - 30px);
   position: relative;
 }
 
-.work-service {
+.service {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -559,7 +559,7 @@ cursor: pointer;
   ;
 }
 
-.work-text {
+.service__text {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
