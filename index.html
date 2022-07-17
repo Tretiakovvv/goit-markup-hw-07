@@ -12,7 +12,9 @@
     rel="stylesheet" />
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+      <link rel="stylesheet" href="./css/main.min.css" />
   <link rel="stylesheet" href="./css/styles.css" />
+
 </head>
 
 <body>
@@ -25,24 +27,24 @@
 
           <ul class="site-nav list">
             <li class="item">
-              <a href="./index.html" class="link current">Студия</a>
+              <a href="./index.html" class="site-nav-link link current">Студия</a>
             </li>
             <li class="item">
-              <a href="./portfolio.html" class="link">Портфолио</a>
+              <a href="./portfolio.html" class="site-nav-link link">Портфолио</a>
             </li>
-            <li class="item"><a href="" class="link">Контакты</a></li>
+            <li class="item"><a href="" class="site-nav-link link">Контакты</a></li>
           </ul>
         </nav>
 
-        <ul class="header-list">
+        <ul class="header-list list">
           <li class="item">
-            <a href="mailto:info@devstudio.com" class="header-link"><svg class="header-mail" width="16" height="12">
+            <a href="mailto:info@devstudio.com" class="header-link link"><svg class="header-mail" width="16" height="12">
                 <use href="./images/icons.svg#icon-mail"></use>
               </svg>
               info@devstudio.com</a>
           </li>
           <li class="item">
-            <a href="tel:+380961111111" class="header-link">
+            <a href="tel:+380961111111" class="header-link link">
               <svg class="header-phone" width="10" height="16">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>+38 096 111 11 11</a>
@@ -430,11 +432,10 @@
         </div>
         <form class="form-footer">
           <div class="form-email-footer">
-          <label  for="footer-mail" class="footer-label">Подпишитесь на рассылку</label>
-          <input type="email" name="mail" id="footer-mail"
-           placeholder="E-mail" class="footer-input">
+            <label for="footer-mail" class="footer-label">Подпишитесь на рассылку</label>
+            <input type="email" name="mail" id="footer-mail" placeholder="E-mail" class="footer-input">
           </div>
-          <button type="submit" class="form-footer-button" >Подписаться
+          <button type="submit" class="form-footer-button">Подписаться
             <svg class="form-icon-button" width="24" height="24">
               <use href="./images/icons.svg#icon-telegram"></use>
             </svg>
