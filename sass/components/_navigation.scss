@@ -1,13 +1,10 @@
 .main-nav {
-    display: flex;
+  display: flex;
 }
-
 
 .nav-header {
-    display: flex;
+  display: flex;
 }
-
-
 
 .site-nav {
   display: flex;
@@ -15,8 +12,8 @@
   margin-right: auto;
 
   .item:not(:last-child) {
-  margin-right: 50px;
-}
+    margin-right: 50px;
+  }
 }
 
 .site-nav .current {

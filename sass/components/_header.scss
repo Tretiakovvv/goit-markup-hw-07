@@ -5,6 +5,9 @@
   margin-left: auto;
 
   .item:not(:last-child) {
-  margin-right: 50px;
+    margin-right: 50px;
+  }
 }
+.header-border {
+  border-bottom: 1px solid #ececec;
 }

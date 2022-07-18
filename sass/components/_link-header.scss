@@ -1,4 +1,4 @@
-.site-nav-link .link {
+.site-nav-link {
   position: relative;
   display: flex;
   padding-top: 32px;
@@ -36,13 +36,10 @@
   }
 
   .header-mail {
-  margin-right: 10px;
+    margin-right: 10px;
+  }
 
+  .header-phone {
+    margin-right: 10px;
+  }
 }
-
-.header-phone {
-  margin-right: 10px;
-}
-}
-
-

@@ -13,39 +13,40 @@
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/main.min.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+   
 
 </head>
 
 <body>
   <!-- Шапка -->
-  <header>
+   <header>
     <div class="header-border">
       <div class="container main-nav">
         <nav class="nav-header">
-          <a lang="en" href="./index.html" class="logo ">Web<span class="logo-secondary">Studio</span></a>
+          <a lang="en" href="./index.html" class="logo">Web<span class="logo-secondary">Studio</span></a>
 
           <ul class="site-nav list">
-            <li class="item"><a href="./index.html" class="link">Студия</a></li>
-            <li class="item"><a href="./portfolio.html" class="link current">Портфолио</a></li>
-            <li class="item"><a href="" class="link">Контакты</a></li>
+            <li class="item">
+              <a href="./index.html" class="site-nav-link link ">Студия</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="site-nav-link link current">Портфолио</a>
+            </li>
+            <li class="item"><a href="" class="site-nav-link link">Контакты</a></li>
           </ul>
         </nav>
 
-        <ul class="header-list">
+        <ul class="header-list list">
           <li class="item">
-            <a href="mailto:info@devstudio.com" class="header-link"><svg class="header-mail" width="16" height="12">
-                <use href="./images/icons.svg#icon-mail">
-
-                </use>
-              </svg> info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="header-link link"><svg class="header-mail" width="16" height="12">
+                <use href="./images/icons.svg#icon-mail"></use>
+              </svg>
+              info@devstudio.com</a>
           </li>
           <li class="item">
-            <a href="tel:+380961111111" class="header-link">
+            <a href="tel:+380961111111" class="header-link link">
               <svg class="header-phone" width="10" height="16">
-                <use href="./images/icons.svg#icon-phone">
-
-                </use>
+                <use href="./images/icons.svg#icon-phone"></use>
               </svg>+38 096 111 11 11</a>
           </li>
         </ul>
@@ -55,10 +56,10 @@
 
   <main>
     <!-- наши проекты -->
-    <section class="projects">
+    <section class="projects section">
       <div class="container">
         <h1 hidden class="projects-title">Наши проекты</h1>
-        <ul class="projects-buttons">
+        <ul class="projects-list-buttons">
           <li class="item"><button type="button" class="secondary-button ">Все</button></li>
           <li class="item">
             <button type="button" class="secondary-button ">Веб-сайт</button>
@@ -77,8 +78,8 @@
 
 
         <ul class="projects-list">
-          <li class="item-card">
-            <a href="" class="card">
+          <li class="projects-card">
+            <a href="" class="card link">
               <div class="projects-thumb">
                 <img src="./images/portfolio/img.jpg" alt="ноутбук">
                 <div class="projects-overlay">
@@ -95,8 +96,8 @@
             </a>
           </li>
 
-          <li class="item-card">
-            <a href="" class="card">
+          <li class="projects-card">
+            <a href="" class="card link">
               <div class="projects-thumb">
                 <img src="./images/portfolio/img(1).jpg" alt="баскетболисты">
                 <div class="projects-overlay">
@@ -114,8 +115,8 @@
 
 
           </li>
-          <li class="item-card">
-            <a href="" class="card">
+          <li class="projects-card">
+            <a href="" class="card link">
               <div class="projects-thumb">
                 <img src="./images/portfolio/img(2).jpg" alt="логотип ресторана">
                 <div class="projects-overlay">
@@ -131,8 +132,8 @@
             </a>
           </li>
 
-          <li class="item-card">
-            <a href="" class="card">
+          <li class="projects-card">
+            <a href="" class="card link">
               <div class="projects-thumb">
                 <img src="./images/portfolio/img(3).jpg" alt="наушники">
                 <div class="projects-overlay">
@@ -148,8 +149,8 @@
             </a>
           </li>
 
-          <li class="item-card">
-            <a href="" class="card">
+          <li class="projects-card">
+            <a href="" class="card link">
               <div class="projects-thumb">
                 <img src="./images/portfolio/img(4).jpg" alt="коробки">
                 <div class="projects-overlay">
@@ -165,8 +166,8 @@
             </a>
           </li>
 
-          <li class="item-card">
-            <a href="" class="card">
+          <li class="projects-card">
+            <a href="" class="card link">
               <div class="projects-thumb">
                 <img src="./images/portfolio/img(5).jpg" alt="компьютер">
                 <div class="projects-overlay">
@@ -182,8 +183,8 @@
             </a>
           </li>
 
-          <li class="item-card">
-            <a href="" class="card">
+          <li class="projects-card">
+            <a href="" class="card link">
               <div class="projects-thumb">
                 <img src="./images/portfolio/img(6).jpg" alt="журнал">
                 <div class="projects-overlay">
@@ -199,8 +200,8 @@
             </a>
           </li>
 
-          <li class="item-card">
-            <a href="" class="card">
+          <li class="projects-card">
+            <a href="" class="card link">
               <div class="projects-thumb">
                 <img src="./images/portfolio/img(7).jpg" alt="логотип">
                 <div class="projects-overlay">
@@ -216,8 +217,8 @@
             </a>
           </li>
 
-          <li class="item-card">
-            <a href="" class="card">
+          <li class="projects-card">
+            <a href="" class="card link">
               <div class="projects-thumb">
                 <img src="./images/portfolio/img(8).jpg" alt="ноутбук">
                 <div class="projects-overlay">
@@ -241,11 +242,11 @@
     </section>
   </main>
 
-  <footer>
+   <footer>
     <div class="footer">
       <div class="container footer-thumb">
         <div class="address">
-          <a lang="en" href="./index.html" class="logo">Web<span class="logo-footer">Studio</span></a>
+          <a lang="en" href="./index.html" class="logo">Web<span class="footer-logo">Studio</span></a>
           <address>
             <p class="footer-address">г. Киев, пр-т Леси Украинки, 26</p>
             <a href="mailto:info@example.com " class="footer-link">info@example.com
@@ -278,8 +279,19 @@
             </li>
           </ul>
         </div>
-      </div>
+        <form class="footer-form">
+          <div class="footer-form-email">
+            <label for="footer-mail" class="footer-label">Подпишитесь на рассылку</label>
+            <input type="email" name="mail" id="footer-mail" placeholder="E-mail" class="footer-input">
+          </div>
+          <button type="submit" class="footer-form-button">Подписаться
+            <svg class="form-icon-button" width="24" height="24">
+              <use href="./images/icons.svg#icon-telegram"></use>
+            </svg>
+          </button>
+        </form>
 
+      </div>
     </div>
   </footer>
 </body>
